@@ -20,7 +20,7 @@ h2 {
   text-align: center;
 }
 a {
-  color: #111D8C;
+  color: #111D8C !important;
   text-decoration: none;
 }
 footer {
