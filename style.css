@@ -1,6 +1,11 @@
 body {
   font-family: Algerian, sans-serif;
-  background-color: #f2c657;
+  background-image: url("./téléchargement%20(5).jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh
   margin: 0;
   padding: 35px;
 }
