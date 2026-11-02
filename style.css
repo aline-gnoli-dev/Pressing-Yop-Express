@@ -1,0 +1,26 @@
+body {
+  font-family: Algerian, sans-serif;
+  background-color: #f2c657;
+  margin: 0;
+  padding: 35px;
+}
+header {
+  background-color:#5b79ad; ;
+  color: #e2dfc4;
+  padding: 20px;
+  text-align: center;
+}
+h2 {
+  color: #000000;
+  text-align: center;
+}
+a {
+  color: #222;
+  text-decoration: none;
+}
+footer {
+  background-color: #5b79ad;
+  color: #e2dfc4;
+  padding: 10px;
+  text-align: center;
+}
