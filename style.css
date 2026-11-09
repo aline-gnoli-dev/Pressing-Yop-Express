@@ -1,11 +1,6 @@
 body {
   font-family: Algerian, sans-serif;
-  background-image: url("./téléchargement%20(5).jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  min-height: 100vh
+  background-image: url(téléchargement\ \(5\).jpg);
   margin: 0;
   padding: 35px;
 }
@@ -20,12 +15,51 @@ h2 {
   text-align: center;
 }
 a {
-  color: #CBB99B !important;
+  color: #222;
   text-decoration: none;
 }
 footer {
-  background-color: #5b79ad;
+ background-color:#5b79ad; 
   color: #e2dfc4;
   padding: 10px;
   text-align: center;
+}
+.cartes {
+  display:  flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 20px;
+}
+.carte {
+background-color:#5b79ad;
+  flex: 1 1 200px;
+  border: 6px solid #0b4783;
+  border-radius: 15px;
+  padding: 15px
+
+}
+.menu {
+ background-color:#5b79ad;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 15px;
+  border-radius: 15px;
+}
+@media (max-width: 600px) {
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .cartes {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .carte {
+    flex: 1 1 auto;
+  }
 }
